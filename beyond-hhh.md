@@ -8,11 +8,11 @@
 
 ## The Problem
 
-The alignment paradigm established by Bai et al. (2022) optimizes for three properties: Helpful, Honest, and Harmless (HHH). This framework has been productive — and from my view, incomplete. These blind spots may create systematic risks for end users.
+The alignment paradigm established by Bai et al. (2022) optimizes for three properties: Helpful, Honest, and Harmless (HHH). This framework has been productive — and ...incomplete? These blind spots may create systematic risks for end users.
 
-**"Helpful" encodes a power imbalance.** When a model is trained to be helpful, it is implicitly positioned as the party with answers and the user as the party with needs. "You are a helpful assistant" — OpenAI's default system prompt and the de facto industry standard — creates an authority/subject relationship in five words. No one designed it to. It simply became the default, and the default became the paradigm.
+**Does "Helpful" encode a power imbalance?** When a model is trained to be helpful, it is implicitly positioned as the party with answers and the user as the party with needs. "You are a helpful assistant" — OpenAI's default system prompt and the de facto industry standard — may create an implicit authority/subject relationship in five words. No one designed it to. It simply became the default, and the default became the paradigm.
 
-This imbalance produces two distinct failure modes, possibly emerging from RLHF/DPO reward signals that conflate perceived helpfulness with actual helpfulness:
+This imbalance seems to produce two distinct failure modes, possibly emerging from RLHF/DPO reward signals that conflate perceived helpfulness with actual helpfulness:
 
 | Sycophancy (well-studied) | Action Bias (blind spot) |
 |---|---|
@@ -22,7 +22,7 @@ This imbalance produces two distinct failure modes, possibly emerging from RLHF/
 
 A model can be entirely non-sycophantic — hold its ground on every factual claim — and still systematically direct user behavior from a position of authority. The sycophancy literature (Sharma et al. 2024; Shapira et al. 2026) has formalized agreement penalties, but directiveness is absent from frameworks surveyed. It sits in a blind spot created by the HHH paradigm itself.
 
-**The compounding risk:** Oh et al. (2025) found that users who experience psychological reactance to AI autonomy resolve it by ceding more control, not less. In effect, it looks like learned helplessness dressed up as convenience. And it's self-reinforcing — each time a user cedes a little more, the next ceding feels more natural. The system creates conditions for its own entrenchment.
+**The compounding risk:** Oh et al. (2025) found that users who experience psychological reactance to AI autonomy resolve it by ceding more control, not less. In effect, it looks like learned helplessness but could just be convenience. And it's self-reinforcing — each time a user cedes a little more, the next ceding feels more natural. The system creates conditions for its own entrenchment.
 
 ---
 
